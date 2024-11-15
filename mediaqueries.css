@@ -3,8 +3,10 @@
         height: 83vh;
         margin-bottom: 6rem;
     }
+
     .about-containers {
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -45,13 +47,15 @@
     }
 
     .section__pic-container {
-        width: 75px;
-        height: 75px;
+        width: 275px;
+        height: 275px;
         margin: 0 auto 2rem;
+        justify-content: center;
     }
 
     .about-containers {
         margin-top: 0;
+        justify-content: center;
     }
 }
 
